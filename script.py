@@ -8,10 +8,8 @@ from selenium.common.exceptions import TimeoutException, StaleElementReferenceEx
 
 
 def solve_math(expression):
-    """Solve basic arithmetic expressions safely."""
+
     expr = expression.strip()
-    
-    # Replace various symbols with standard operators
     replacements = {
         '×': '*', '·': '*', 'x': '*', 'X': '*',
         '÷': '/', '–': '-', '−': '-', '—': '-'
@@ -126,12 +124,12 @@ def zetamac_solver_optimized():
             print("Could not retrieve the final score from the page.")
         
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+
+        print(f"An error occurred: {e}")
         
     finally:
-        print("Closing browser.")
-        driver.quit()
-
+        print("finished.")
+        # driver.quit()
 
 if __name__ == "__main__":
     zetamac_solver_optimized()
