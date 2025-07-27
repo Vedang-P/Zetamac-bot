@@ -61,4 +61,4 @@ python zetamac_solver.py
 The script will open a new Firefox window and begin solving the problems. The progress will be printed to the console.
 Disclaimer
 
-This script is intended for educational purposes to demonstrate web automation with Selenium. Please be mindful of the terms of service of any website you use automation on. The creators of this script are not responsible for any misuse.
+This script is intended for educational purposes to demonstrate web automation with Selenium. Please be mindful of the terms of service of any website you use automation on. 
